@@ -10,6 +10,10 @@ public class Client {
         this.name = name;
         this.id = id;
     }
+    public Client(String name) {
+        this.name = name;
+        this.id = "0000";
+    }
     
     @Override
     public String toString(){
