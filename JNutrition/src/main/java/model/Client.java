@@ -4,9 +4,13 @@ package model;
 
 public class Client {
     String name;
-    public Client(String n){
-        this.name = n;
+    String id;
+
+    public Client(String name, String id) {
+        this.name = name;
+        this.id = id;
     }
+    
     @Override
     public String toString(){
             return this.name;
